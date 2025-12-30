@@ -1,20 +1,22 @@
 name: test
+
 on: push
+
 jobs:
   test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.7", "3.8", "3.9", "3.10"]
+
     steps:
-    - uses: actions/checkout@v3
-    - name:  Setup ROS 2 Jazzy
-      uses: ros-tooling/setup-ros@v0.7
-      with:
-        required-ros-distributions: jazzy
+      - uses: actions/checkout@v3
+
+      - name: Setup ROS 2 Jazzy
+        uses: ros-tooling/setup-ros@v0.7
+        with:
+          required-ros-distributions: jazzy
 
       - name: Build workspace
-      run: |
-       source /opt/ros/jazzy/setup.bash
-       colcon build
+        run: |
+          source /opt/ros/jazzy/setup.bash
+          colcon build
+
 
