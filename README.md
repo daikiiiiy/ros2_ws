@@ -63,3 +63,6 @@
 - このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著者としたものです
     -[ryuichueda/slides_marp robosys2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 Daiki Okamoto
+
+参考したアプリ
+Chat GPT（コードの提案やREADMEの添削に使用した）i
