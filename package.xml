@@ -3,9 +3,9 @@
 <package format="3">
   <name>mypkg</name>
   <version>0.0.0</version>
-  <description>TODO:package declaration</description>
+  <description>Simple ROS 2 Python package with talker and listener nodes</description>
   <maintainer email="s24c1032kz@s.chibakoudai.jp">daikiiiy</maintainer>
-  <license>TODO:License declaration</license>
+  <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>launch_ros</exec_depend>

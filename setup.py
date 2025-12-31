@@ -18,8 +18,8 @@ setup(
     zip_safe=True,
     maintainer='daikiiiy',
     maintainer_email='s24c1032kz@s.chibakoudai.jp',
-    description='TODO:package declaration',
-    license='TODO:License declaration',
+    description='Simple ROS 2 Python package with talker and listener node',
+    license='BSD-3-Clause',
     extras_require={
         'test': [
             'pytest',
