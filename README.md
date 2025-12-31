@@ -6,10 +6,10 @@
 れる talker ノードと listener ノードを実行することで、ROS2 におけるトピック通信の基本的な仕組みを確認できる。
 
 # ダウンロード
-1.最初に"Clone or download"を選択します. 
-2.選択したら"Download ZIP"を押します. 
-3.URLをコピーしてもらうとダウンロードが完了します
-4.インストールはgit clone https://github.com/daikiiiiy/ros2_ws.gitを打ち込むと完了します
+- 1.最初に"Clone or download"を選択します. 
+- 2.選択したら"Download ZIP"を押します. 
+- 3.URLをコピーしてもらうとダウンロードが完了します
+- 4.インストールはgit clone https://github.com/daikiiiiy/ros2_ws.git を打ち込むと完了します
 
 # ノード
 ## talkerノード
