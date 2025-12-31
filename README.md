@@ -1,21 +1,21 @@
 # URL
 ![test](https://github.com/daikiiiiy/ros2_ws/actions/workflows/test.yml/badge.svg)
 
-# multiplicationコマンド
+# 概要
 このソフトはros2を用いり基本的なパブリッシャ・サブスクライバ通信を学習するためのサンプルコードである。 mypkg パッケージ内に含ま
 れる talker ノードと listener ノードを実行することで、ROS2 に
-おけるトピック通信の基本的な仕組みを確認できる。ま
+おけるトピック通信の基本的な仕組みを確認できる。
 
 # ダウンロード
 1.最初に"Clone or download"を選択します. 
 2.選択したら"Download ZIP"を押します. 
 3.URLをコピーしてもらうとダウンロードが完了します
-4.いんす
+4.インストールはhttps://github.com/daikiiiiy/ros2_ws.gitを打ち込むと完了します
 
 # ノード
-talkerノード
+## talkerノード
 　ランダムに数値を生成し、listenerに数値を出力させる
-listenerノード
+## listenerノード
 　talkerから出力された数値を読み取り特定の数値より大きくったら
 　警告文を表示する。特定の数値以下になったらNomal Valueと表示する
 
@@ -59,7 +59,7 @@ listenerノード
 # テスト環境
 - Ubuntu 24.04 LTS
 # 権利関係・謝辞
-- このソフトハードウェアパッケージは、３条項BSDライセンスの下、>再頒布および使用が許可されます.
+- このソフトハードウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます.
 - このパッケージのコードは、上田隆一教授由来のコード（© 2025 Ryuichi Ueda)を利用しています.
 - このパッケージのコードは、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、本人の許可を得て自身の著者としたものです
-
+- © 2025 Daiki Okamoto
